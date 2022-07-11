@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 
 plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 monochrome= true,//readable console
-dryRun=false, //dry run used to check feature file steps were implemented in teststeps
+dryRun=false , //dry run used to check feature file steps were implemented in teststeps
 tags = "@validlogin or @sanity"
 
 
