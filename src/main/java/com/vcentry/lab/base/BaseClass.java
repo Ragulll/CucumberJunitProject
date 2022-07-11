@@ -26,6 +26,7 @@ public static Logger log=LogManager.getLogger(BaseClass.class);
 public static LoginPage login;
 public static HomePage home;
 public static CartPage cart;
+public static String t="test";
  
  public void openBrowser(String browser) {
 	try {
